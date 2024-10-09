@@ -34,18 +34,16 @@ where author = "이일민" OR author = "김영한";
     - Read, Update, Delete는 기본키를 이용한 질의문을 사용해도 좋고, 본인만의 방식으로 자유롭게 만드셔도 좋습니다.
 */
 -- 자신만의 데이터베이스 만들기(테이블 2개 이상 생성)
-create table major (
-major_id int primary key,
-major_name varchar(300),																																
-major_office varchar(300)
+create table mentee (
+mentee_id int primary key,
+mentee_name varchar(300),																																
+mantee_major varchar(300)
 );
 
-create table student (
-student_id int primary key,
-name varchar(300),
-gender varchar(300),
-major_id int,
-constraint fk foreign key (major_id) references major(major_id)
+create table mento (
+mento_id int primary key,
+mento_name varchar(300),
+mento_job varchar(300)
 );
 -- Create(1개 이상)
 insert into mentee
