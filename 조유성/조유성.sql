@@ -39,7 +39,8 @@
 movie_db라는 데이터 베이스를 만들고, 아래의 명령을 수행하여 테이블 2개를 생성해 보았습니다.
    CREATE TABLE movie (
     movie_id INT PRIMARY KEY,         
-    movie_name VARCHAR(255)          
+    movie_name VARCHAR(255),
+    release_date VARCHAR(255)
 );
 CREATE TABLE actors (
     actor_id INT PRIMARY KEY,        
