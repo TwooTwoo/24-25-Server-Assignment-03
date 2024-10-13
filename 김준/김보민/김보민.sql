@@ -22,6 +22,7 @@ select count(*)
 from book
 where author in ("김영한", "이밀민");
 
+
 /*
 과제 B:
 1. 자신만의 데이터베이스를 만드세요.
@@ -33,6 +34,7 @@ where author in ("김영한", "이밀민");
     - Read, Update, Delete는 기본키를 이용한 질의문을 사용해도 좋고, 본인만의 방식으로 자유롭게 만드셔도 좋습니다.
 */
 -- 자신만의 데이터베이스 만들기(테이블 2개 이상 생성)
+
 
 -- Create(1개 이상)
 create table movie(
