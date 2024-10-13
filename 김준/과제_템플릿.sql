@@ -241,4 +241,3 @@ COMMIT;
 
 -- 커밋했으므로 롤백 불가
 ROLLBACK TO nothing_deleted_table;
-
